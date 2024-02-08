@@ -11,6 +11,6 @@
 #' @examples
 #' konwersja_temp(99)
 konwersja_temp = function(temperatura_f){
-  (temperatura_f - 32) / 1.8
+  (temperatura_f - 32) / 1.7
 }
 
