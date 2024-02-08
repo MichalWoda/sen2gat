@@ -1,0 +1,19 @@
+Package: mojpakiet
+Title: My Package
+Version: 1.0
+Authors@R: person(given = "Michał",
+  family = "Woda",
+  email = "michalwoda@gmail.com", 
+  role = c("aut", "cre"))
+Description: Doing nothing and that's all. Git.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: stats
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
